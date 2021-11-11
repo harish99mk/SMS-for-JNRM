@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="STOCK MANAGEMENT SYSTEM.exe" version="1.0.0.11" publicKeyToken="00b311960e1cc078" language="en" processorArchitecture="msil" type="win32" />
+  <description asmv2:publisher="realme" co.v1:suiteName="realme" asmv2:product="stock management system" asmv2:supportUrl="https://docs.microsoft.com/" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="STOCK MANAGEMENT SYSTEM" version="1.0.0.0" publicKeyToken="00B311960E1CC078" language="neutral" processorArchitecture="msil" />
+    <commandLine file="STOCK MANAGEMENT SYSTEM.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="STOCK MANAGEMENT SYSTEM.exe" size="1834472">
+      <assemblyIdentity name="STOCK MANAGEMENT SYSTEM" version="1.0.0.0" publicKeyToken="00B311960E1CC078" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>C7pbX5SKZ4xtp4ydmQJEHceagYFDe3H9QiYarDKF+Q4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Database1.mdf" size="3342336" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KXykIC0x7LMZzLZC9pCkPv1xXtv5urDMMkwfeZnUAPY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Database1_log.ldf" size="851968" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+trF45UzKn/YwvjWgZl63vTvEXbzvXmyzQZS3bwu02M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="STOCK MANAGEMENT SYSTEM.exe.config" size="1385">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dnODhhENx2uHuoOE9B1htfP0SLpCV5sb7HcZ3ZlXFRo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-195PRI2\HARISH" issuerKeyHash="e396638a6009f477e2cbafe9e59cd69a3cb00b4d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>S96SYPhuVwF95axLG0Uiunc6g633MhHP+Le+oIcqip0=</DigestValue></Reference></SignedInfo><SignatureValue>har8fH5foziNnTTUi1yyH9FU401Ud0j5gn/YKupLGSbbaRUNQaAUahjrpLgqplFlGhHKrwG2XBbXFjPE62EWbq79e0fItzHgNCuvHrivmXlhsX7nNuTXQm9K8g87vEzUSbryrz8nIUf+3hrPIrUREowd/ydhnZqPGvsQvpNo1fU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vheGlXb3STfI6E9ypI6D12bjL6VwKYYOW1kjLFzeL8BN+W+bWtRmTcgYsIQ8+lmvF8BT/FzjKAq/uicLyNwtSMxO/nxszq5Hoj7r4D13knq3UdS6hrw8PBaE2FfBd0tvDub4OMrVJx6X5sDQxL1/zD9T4Aj2Y7CDp3lGBrB8ys0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9d8a2a87a0beb7f8cf1132f7ad833a77ba22451b4bace57d01576ef86092de4b" Description="" Url=""><as:assemblyIdentity name="STOCK MANAGEMENT SYSTEM.exe" version="1.0.0.11" publicKeyToken="00b311960e1cc078" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-195PRI2\HARISH</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>PC8BZ8WMxuaFPTtVw3ZzjkicGavxsiPS612T2oam36Y=</DigestValue></Reference></SignedInfo><SignatureValue>EOHdSZdO/977h/20zKvcVNU35MvkS5TsSdWu8fGGy1qxOhsbFGvS+ghRStMNB8Xx3zJmIPiEkWMQgKmdaFS1wjuRKNpUAdbkkxQrt+gTZvBgkD/d8gxkuiEM3JtJmXyCaW9OfHI7V7r9BVU3hDZJ23a8vHfO4ZnD5tDQ4SAmxO0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vheGlXb3STfI6E9ypI6D12bjL6VwKYYOW1kjLFzeL8BN+W+bWtRmTcgYsIQ8+lmvF8BT/FzjKAq/uicLyNwtSMxO/nxszq5Hoj7r4D13knq3UdS6hrw8PBaE2FfBd0tvDub4OMrVJx6X5sDQxL1/zD9T4Aj2Y7CDp3lGBrB8ys0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQHyniDic3yodDdZQ4fLoLWzANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtADEAOQA1AFAAUgBJADIAXABIAEEAUgBJAFMASDAeFw0yMDEyMTQwMjI0NTdaFw0yMTEyMTQwODI0NTdaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AMQA5ADUAUABSAEkAMgBcAEgAQQBSAEkAUwBIMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+F4aVdvdJN8joT3KkjoPXZuMvpXAphg5bWSMsXN4vwE35b5ta1GZNyBiwhDz6Wa8XwFP8XOMoCr+6JwvI3C1IzE7+fGzOrkeiPuvgPXeSerdR1LqGvDw8FoTYV8F3S28O5vg4ytUnHpfmwNDEvX/MP1PgCPZjsIOneUYGsHzKzQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABevjaTQ8rvodZ7mUIv2DV1Qa6nziPoYSL5DcMO7S465Obj8lve25OwV2sFCLbUzlvmIRIvY2xKLL0T/ICcgrjCyzTRxv0qlL0J3RSdQw7Z2/8nANRB8mMWK58m1dqTI0Vh2biElDwo0GgIq6p7iy2YNNv7O7BTjOwB3TCM+fRRZ</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
